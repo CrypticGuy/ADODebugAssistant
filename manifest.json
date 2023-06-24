@@ -1,8 +1,8 @@
 {
-    "name": "Reactive Debugging Assistant",
+    "name": "AzureDevOps Pipeline Debugging Assistant",
     "version": "0.0.0.1",
     "manifest_version": 3,
-    "description": "An assitant to perform different functions for exploring an azure pipeline",
+    "description": "An assitant to perform different functions for exploring an azure pipeline and helping developers debug issues. The extension provides one click navigation features from the extension UI itself.",
     "icons": {
         "16": "icons/Icon-16.png",
         "32": "icons/Icon-32.png",

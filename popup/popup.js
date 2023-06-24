@@ -20,7 +20,6 @@ const getAdoAccount = document.getElementById("adoAccount")
 const getProjectId = document.getElementById("projectId")
 const getBuildId = document.getElementById("buildId")
 
-cons
 
 function extractInformation(url) {
     let currURL = new URL(url)

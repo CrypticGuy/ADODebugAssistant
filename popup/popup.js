@@ -20,6 +20,17 @@ const getAdoAccount = document.getElementById("adoAccount")
 const getProjectId = document.getElementById("projectId")
 const getBuildId = document.getElementById("buildId")
 
+function populateAdoAccountDataList() {
+    const adoAccounts = localStorage.getItem("bookmarkedAdoAccount")
+    const adoAccountsList = adoAccounts.split(',')
+    const adoAccountDataList = document.getElementById('adoAccountsDataList')
+    adoAccountsList.forEach(function(item){
+        var option = document.createElement('option');
+        option.value = item;
+        adoAccountDataList.appendChild(option);
+    });
+}
+
 
 function extractInformation(url) {
     let currURL = new URL(url)
@@ -293,3 +304,8 @@ if (openOrgPage) {
         });
     };
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Populate AdoAccount Data List
+    populateAdoAccountDataList()
+})

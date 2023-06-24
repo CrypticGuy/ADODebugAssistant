@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            body {
+                min-width: 500px;
+                overflow: scroll;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Azure Devops Pipeline Assistant</h1>
+        <button id="getFinalYAML">Get Final YAML</button>
+        <button id="getTimeline">Get Timeline</button>
+        <button id="getLogsView">Get Logs View</button>
+        <button id="getTaskVersion">Get Task Version</button>
+        <button id="getProdVersion">Get Prod Version</button>
+        <button id="getProperties">Get Properties</button>
+        <button id="openTestAccount">Open test account</button>
+        <button id="openProdAccount">Open prod account</button>
+        <br>
+        <input type="text" id="orgname" placeholder="Enter org name" />
+        <button id="openOrgTasks">Open Org Task page</button>
+        <br>
+        <input type="text" id="task-ids" placeholder="Enter task IDs comma separated" />
+        <button id="getTaskIDCsvs">Get Task Version for Task Ids</button>
+        <br>
+        <button id="SearchErrorFix">Search Error Fix</button>
+        <p>
+            <input type="text" id="adoAccount" placeholder="Org Name" />
+            <input type="text" id="projectId" placeholder="Project Id/Name" />
+            <input type="number" id="buildId" placeholder="BuildId" />
+            <button id="getBuildLogs">Get Build Logs</button>
+        </p>
+        <div id="error_fix">
+
+        </div>
+            <!-- <button id="saveTaskIds">Save task ids</button> -->
+        <script src="popup.js"></script>
+    </body>
+</html> 

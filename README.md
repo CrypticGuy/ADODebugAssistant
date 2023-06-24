@@ -1,6 +1,6 @@
 # Azure DevOps Assistant
 
-![AzureDevOps YAML Pipeline Navigator](logo.png)
+<!--![AzureDevOps YAML Pipeline Navigator](icons/Icon-128.png)-->
 
 The AzureDevOps Assistant is a Microsoft Edge Extension that provides an easy way to navigate between various AzureDevOps APIs related to YAML pipelines. With this extension, users can access the Timeline API, and Logs API, and view the full expanded YAML, making it convenient to view and interact with pipeline information.
 

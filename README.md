@@ -1,8 +1,8 @@
-# AzureDevOps Assistant
+# Azure DevOps Assistant
 
 ![AzureDevOps YAML Pipeline Navigator](logo.png)
 
-The AzureDevOps Assistantr is a Microsoft Edge Extension that provides an easy way to navigate between various AzureDevOps APIs related to YAML pipelines. With this extension, users can access the Timeline API, Logs API, and view the full expanded YAML, making it convenient to view and interact with pipeline information.
+The AzureDevOps Assistant is a Microsoft Edge Extension that provides an easy way to navigate between various AzureDevOps APIs related to YAML pipelines. With this extension, users can access the Timeline API, and Logs API, and view the full expanded YAML, making it convenient to view and interact with pipeline information.
 
 ## Features
 
@@ -13,7 +13,14 @@ The AzureDevOps Assistantr is a Microsoft Edge Extension that provides an easy w
 - **Build Properties**: Retrieve the builds properties information for a pipeline run.
 - **Bookmarking**: Bookmark commonly retrieved Azure DevOps accounts and Task Guids, for faster and easier access
 
-In addition to the core features, this extension offers customization options for a more personalized experience. Users can specify certain AzureDevOps (ADO) accounts, Project information, and pipeline runId and retrieve navigate to the pipeline view.
+In addition to the core features, this extension offers customization options for a more personalized experience. Users can specify certain AzureDevOps (ADO) accounts, Project information, and pipeline runId and retrieve and navigate to the pipeline view.
+
+## Technologies
+- Vanilla JS
+- [https://turretcss.com/](https://turretcss.com/) [For styling]
+- HTML & CSS
+- Microsoft Edge Extension APIs
+- Chrome Extension APIs
 
 ## Installation
 
@@ -65,6 +72,19 @@ Contributions to the AzureDevOps YAML Pipeline Navigator are welcome! To contrib
 4. Commit your changes and push them to your forked repository.
 
 5. Submit a pull request with a detailed description of your changes.
+   
+## Roadmap
+
+- [ ] Integrate more APIs into the system
+- [ ] Enable support for visualization of YAML Pipelines
+
+See the [open issues](https://github.com/crypticguy/BackgroundLocationTracker/issues) for a full list of proposed features (and known issues).
+
+## Contact
+
+Vasu Goel - [(@vgoel_)](https://twitter.com/vgoel_) - vasu18322@iiitd.ac.in
+
+Project Link: [https://github.com/crypticguy/AdoDebugAssistant](https://github.com/crypticguy/AdoDebugAssistant)
 
 ## License
 
@@ -78,4 +98,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 This extension is provided as-is without any warranty. Use it at your own risk.
 
-Please note that this extension is not officially endorsed or maintained by Microsoft or AzureDevOps. It is a community-driven project developed for convenience purposes.
+Please note that this extension is not officially endorsed or maintained by Microsoft or Azure DevOps. It is a community-driven project developed for convenience purposes.

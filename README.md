@@ -15,6 +15,8 @@ The AzureDevOps Assistant is a Microsoft Edge Extension that provides an easy wa
 
 In addition to the core features, this extension offers customization options for a more personalized experience. Users can specify certain AzureDevOps (ADO) accounts, Project information, and pipeline runId and retrieve and navigate to the pipeline view.
 
+Check out the extension in Microsoft AddOn Store: [Azure DevOps Assistant](https://microsoftedge.microsoft.com/addons/detail/reactive-debugging-assist/ogolcccadpjiclncdgalalkehllgelhb)
+
 ## Technologies
 - Vanilla JS
 - [https://turretcss.com/](https://turretcss.com/) [For styling]

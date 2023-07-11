@@ -41,6 +41,10 @@ const setSuccessStatusMessage = (name) => {
 
 const createViewPills = (input, output) => {
   const commaSeparatedValues = localStorage.getItem(input)
+  if (commaSeparatedValues == null) {
+    document.getElementById(output).innerHTML = ""
+    return
+  }
   let listValues = commaSeparatedValues.split(',')
   let finalHtml = ""
   listValues.forEach(elm => {
